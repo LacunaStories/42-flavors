@@ -17,6 +17,7 @@
 	 }
  }
 
+
   /* Extracts and returns an array of flavor objects based on data in the DOM. Each
    * flavor object should contain five properties:
    *
@@ -46,6 +47,7 @@
   		
   		flavorArray.push(flavorObject);
   	}
+
   }
 
   /* Calculates and returns the average price of the given set of flavors. The
@@ -58,7 +60,7 @@
   	average = average.toFixed(2);
   	return average;
   }
-  	
+
   /* Finds flavors that have prices below the given threshold. Returns an array
    * of strings, each of the form "[flavor] costs $[price]". There should be
    * one string for each cheap flavor. */
